@@ -65,20 +65,21 @@ import "../../styles/components/Dashboard.css";
   */
 
     return (
-		<div className="main-component container-fluid border border-white mx-0">
-			<div className="row">
-				<div className="col px-0">
-					<MenuPanel />
-				</div>
-			</div>
-			<div className="row">
-				<div className="col">
+		<div className="main-component container-fluid mx-0 px-0">
+		</div>
+    )
+}
+
+/**
+ * 
+			<div className="row mx-0 px-0">
+				<div className="col px-0 mx-0">
 					<section className="container dashboard-section-A my-4 d-flex justify-content-center">
 						<img className="main-logo-A" src="src/assets/main-logo.webp" alt="" />
 					</section>
 				</div>
 			</div>
-		</div>
-    )
-}
+ * 
+ */
+
 

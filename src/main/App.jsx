@@ -2,25 +2,21 @@ import { useState, useEffect } from 'react'
 import axios from "axios";
 import { Routes, Route, Link } from "react-router-dom";
 
+//styles
 import '../styles/App.css';
-import "../styles/components/Header.css";
 
 //pages
 import Dashboard from "./pages/Dashboard";
 import SignIn from "./pages/SignIn";
 import SignUp from "./pages/SignUp";
 
+
 //components
-import Navbar from "./components/Navbar";
+import Header from "./components/Header";
 
 function App() {
 	return (
-		<div className="App container-fluid app-container position-relative px-0">
-			<header className="header-container position-fixed">
-				<div className="header-container-content position-relative">
-					<Navbar/>
-				</div>
-			</header>
+		<div className="App container-fluid app-container position-relative mx-0 px-0">
 			<Routes>
 				<Route path="/" element={ <Dashboard/> } />
 				<Route path="/signin" element={ <SignIn /> } />
