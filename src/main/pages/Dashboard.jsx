@@ -1,3 +1,8 @@
+//components
+import MenuPanel from "../components/MenuPanel";
+//styles
+import "../../styles/components/Dashboard.css";
+
  export default function Dashboard() {
 	/*const [tickets, setTickets] = useState([]);
 	const [description, setDescription] = useState("");
@@ -58,8 +63,22 @@
 	  </div>
   )
   */
+
     return (
-        <h1>Hi there dashboard</h1>
+		<div className="main-component container-fluid border border-white mx-0">
+			<div className="row">
+				<div className="col px-0">
+					<MenuPanel />
+				</div>
+			</div>
+			<div className="row">
+				<div className="col">
+					<section className="container dashboard-section-A my-4 d-flex justify-content-center">
+						<img className="main-logo-A" src="src/assets/main-logo.webp" alt="" />
+					</section>
+				</div>
+			</div>
+		</div>
     )
 }
 

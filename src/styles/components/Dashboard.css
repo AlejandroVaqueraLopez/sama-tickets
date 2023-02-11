@@ -1,0 +1,13 @@
+.main-component {
+    background-color: rgb(30,34,43);
+    min-height: 200vh;
+}
+
+.dashboard-section-A {
+    background: rgb(21,24,30);
+    border-radius: 15px;
+}
+
+.main-logo-A {
+    width: 60%;
+}

@@ -1,5 +1,6 @@
 .app-container{
-    height: auto;
-    width: auto;
-    background:indianred;
+    background: rgb(30,34,43);
+    height: 10px;
+    min-height: 100vh;
+    width: 100vw !important;
 }

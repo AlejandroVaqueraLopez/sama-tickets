@@ -1,9 +1,11 @@
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
 
+import "../../styles/components/Navbar.css"
+
 export default function Navbar() {
     return (
-        <nav>
+        <nav className="nav-component d-flex position-absolute">
             <ul>
                 <li>
                     <NavLink to="signin">Sign In</NavLink>

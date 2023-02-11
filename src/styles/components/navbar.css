@@ -1,0 +1,9 @@
+.nav-component {
+    height: 100vh;
+    width: 20vw;
+    min-width: 220px;
+    max-width: 500px;
+    z-index: 3;
+    outline:solid red;
+    background: rgb(24,32,38);
+}

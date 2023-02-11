@@ -1,5 +1,18 @@
 header{
-    width: 100vw;
-    outline: solid black;
-    height:100px;
+    left: 0px;
 }
+.header-container-content {
+    height: 100vh;
+    width: 100vw;
+    background:rgba(0,0,0,0.5);
+}
+
+
+
+/*
+.nav-component-shadow-block {
+    background-color: rgba(0,0,0,0.5);
+    height: 100vh;
+    width: 100vw;
+    z-index: 2;
+}*/

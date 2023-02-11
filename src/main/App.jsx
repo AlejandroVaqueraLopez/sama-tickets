@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react'
 import axios from "axios";
-import '../styles/App.css';
 import { Routes, Route, Link } from "react-router-dom";
-import "../styles/components/navbar.css";
-import "../styles/components/header.css";
+
+import '../styles/App.css';
+import "../styles/components/Header.css";
 
 //pages
 import Dashboard from "./pages/Dashboard";
@@ -15,9 +15,11 @@ import Navbar from "./components/Navbar";
 
 function App() {
 	return (
-		<div className="App Container app-container">
-			<header className="header-container">
-				<Navbar/>
+		<div className="App container-fluid app-container position-relative px-0">
+			<header className="header-container position-fixed">
+				<div className="header-container-content position-relative">
+					<Navbar/>
+				</div>
 			</header>
 			<Routes>
 				<Route path="/" element={ <Dashboard/> } />
@@ -28,5 +30,10 @@ function App() {
 		</div>
 	);
 }
+/*
+
+* */
+
+
 
 export default App
