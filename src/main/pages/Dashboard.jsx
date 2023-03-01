@@ -65,13 +65,45 @@ import "../../styles/components/Dashboard.css";
   */
 
     return (
-		<div className="main-component container-fluid mx-0 px-0">
+		<div className="container-fluid main-component">
+				<div className="row">
+					<div className="col">
+						<section className="container dashboard-section-A my-4 d-flex justify-content-center">
+							<img className="main-logo-A" src="src/assets/main-logo.webp" alt="" />
+						</section>
+						<section className="container dashboard-section-A my-4 d-flex justify-content-center">
+							<img className="main-logo-A" src="src/assets/main-logo.webp" alt="" />
+						</section>
+						<section className="container dashboard-section-A my-4 d-flex justify-content-center">
+							<img className="main-logo-A" src="src/assets/main-logo.webp" alt="" />
+						</section>
+						<section className="container dashboard-section-A my-4 d-flex justify-content-center">
+							<img className="main-logo-A" src="src/assets/main-logo.webp" alt="" />
+						</section>
+						<section className="container dashboard-section-A my-4 d-flex justify-content-center">
+							<img className="main-logo-A" src="src/assets/main-logo.webp" alt="" />
+						</section>
+						<section className="container dashboard-section-A my-4 d-flex justify-content-center">
+							<img className="main-logo-A" src="src/assets/main-logo.webp" alt="" />
+						</section>
+					</div>
+				</div>
 		</div>
     )
 }
 
 /**
  * 
+ * 
+ * 
+ * 
+
+
+
+
+
+
+
 			<div className="row mx-0 px-0">
 				<div className="col px-0 mx-0">
 					<section className="container dashboard-section-A my-4 d-flex justify-content-center">
@@ -79,6 +111,7 @@ import "../../styles/components/Dashboard.css";
 					</section>
 				</div>
 			</div>
+
  * 
  */
 

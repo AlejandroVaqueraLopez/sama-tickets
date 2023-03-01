@@ -1,6 +1,6 @@
 .main-component {
     background-color: rgb(30,34,43);
-    min-height: 200vh;
+    width: 100vw;
 }
 
 .dashboard-section-A {
