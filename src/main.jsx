@@ -12,6 +12,8 @@ import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
-    <App />
+    <div className="main-container container-fluid">
+      <App />
+    </div>
   </BrowserRouter>
 )
