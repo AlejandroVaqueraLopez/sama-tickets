@@ -16,28 +16,20 @@ import Header from "./components/Header";
 
 function App() {
 	return (
-		<div className="App bg-warning container-fluid app-container ">
-			<div className="container">
-				<div className="row">
-					<div className="col">
-						<Routes>
-							<Route path="/" element={ <Dashboard/> } />
-							<Route path="/signin" element={ <SignIn /> } />
-							<Route path="/signup" element={ <SignUp /> } />
-						</Routes>
-
-					</div>
-				</div>
-
-			</div>
-
+		<div className="App container-fluid app-container position-relative">
+				<Header/>
+				<Routes>
+					<Route path="/" element={ <Dashboard/> } />
+					<Route path="/signin" element={ <SignIn /> } />
+					<Route path="/signup" element={ <SignUp /> } />
+				</Routes>
 		</div>
 	);
 }
 /*
 
-app-container position-relative 
-* */
+ 
+*/
 
 
 

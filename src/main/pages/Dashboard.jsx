@@ -65,35 +65,26 @@ import "../../styles/components/Dashboard.css";
   */
 
     return (
-		<div className="container-fluid main-component ">
-			<div className="container">
-				<div className="row">
-					<div className="col">
-						<section className="dashboard-section-A my-4 d-flex justify-content-center">
-							<img className="main-logo-A" src="src/assets/main-logo.webp" alt="" />
-						</section>
-						<section className="dashboard-section-A my-4 d-flex justify-content-center">
-							<img className="main-logo-A" src="src/assets/main-logo.webp" alt="" />
-						</section>
-						<section className="dashboard-section-A my-4 d-flex justify-content-center">
-							<img className="main-logo-A" src="src/assets/main-logo.webp" alt="" />
-						</section>
-						<section className="dashboard-section-A my-4 d-flex justify-content-center">
-							<img className="main-logo-A" src="src/assets/main-logo.webp" alt="" />
-						</section>
-						<section className="dashboard-section-A my-4 d-flex justify-content-center">
-							<img className="main-logo-A" src="src/assets/main-logo.webp" alt="" />
-						</section>
-						<section className="dashboard-section-A my-4 d-flex justify-content-center">
-							<img className="main-logo-A" src="src/assets/main-logo.webp" alt="" />
-						</section>
-						<section className="dashboard-section-A my-4 d-flex justify-content-center">
-							<img className="main-logo-A" src="src/assets/main-logo.webp" alt="" />
-						</section>
-						<section className="dashboard-section-A my-4 d-flex justify-content-center">
-							<img className="main-logo-A" src="src/assets/main-logo.webp" alt="" />
-						</section>
-					</div>
+		<div>
+			<div className="row">
+				<div className="col">
+					<section className="dashboard-section-A my-4 d-flex justify-content-center">
+						<img className="main-logo-A" src="src/assets/main-logo.webp" alt="" />
+					</section>
+				</div>
+			</div>
+			<div className="row">
+				<div className="col">
+					<section className="dashboard-section-A my-4 d-flex justify-content-center">
+						<img className="main-logo-A" src="src/assets/main-logo.webp" alt="" />
+					</section>
+				</div>
+			</div>
+			<div className="row">
+				<div className="col">
+					<section className="dashboard-section-A my-4 d-flex justify-content-center">
+						<img className="main-logo-A" src="src/assets/main-logo.webp" alt="" />
+					</section>
 				</div>
 			</div>
 		</div>
@@ -105,12 +96,6 @@ import "../../styles/components/Dashboard.css";
  * 
  * 
  * 
-
-
-
-
-
-
 
 			<div className="row mx-0 px-0">
 				<div className="col px-0 mx-0">
