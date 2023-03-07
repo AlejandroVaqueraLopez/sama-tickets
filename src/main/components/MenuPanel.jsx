@@ -6,7 +6,7 @@ import { HiMenu } from "react-icons/hi";
 import { IconContext } from 'react-icons';
 
 //hooks
-import { useState, UseState } from "react";
+import { useState } from "react";
 
 //styles
 import "../../styles/components/MenuPanel.css";
