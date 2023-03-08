@@ -3,16 +3,3 @@
     height: 60px;
     background: #000;
 }
-
-.btn-menu-burger {
-    background: #000;
-}
-
-.btn-menu-burger-icon {
-    height: 100%;
-    width: 40px;
-    background: #000;
-    color: #07bfe9;
-}.btn-menu-burger-icon:hover {
-    color: #fff;
-}

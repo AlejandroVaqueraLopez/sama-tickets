@@ -1,0 +1,20 @@
+/*navigation options container*/
+.navbar-settings-container {
+    text-decoration: none;
+}.navbar-settings-container span{
+}
+.navbar-list-item-text {
+}
+
+.navbar-opc-icon {
+    height: 40px;
+    width: auto;
+    color: #fff;
+    margin: 5px 10px 5px -5px;
+}
+
+.navbar-dashboard-icon {
+}
+
+.navbar-settings-icon {
+}

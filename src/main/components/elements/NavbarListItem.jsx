@@ -11,6 +11,9 @@ import { HiCube } from 'react-icons/hi';
 
 import { IconContext } from 'react-icons';
 
+//styles
+import "../../../styles/components/elements/NavbarListItem.css";
+
 //link
 import { NavLink } from "react-router-dom";
 
@@ -55,7 +58,7 @@ export default function NavbarListItem({ path, title, icon }) {
                        )
                     }
                 </IconContext.Provider>
-                <span className="text-white fs-5">{ title }</span>
+                <span className="navbar-list-item-text text-white fs-5">{ title }</span>
             </NavLink>
         </li>
     )
