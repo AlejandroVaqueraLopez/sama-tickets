@@ -28,6 +28,9 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
+  justify-content:center;
+  background-color: #1e222b !important;
+  
 }
 
 h1 {

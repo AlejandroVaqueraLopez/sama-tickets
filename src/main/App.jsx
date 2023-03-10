@@ -23,7 +23,7 @@ import Header from "./components/Header";
 
 function App() {
 	return (
-		<div className="App container-fluid app-container position-relative">
+		<div className="App container-fluid app-container position-relative ">
 				<Header/>
 				<Routes>
 					<Route path="/user" element={ <User/> } />

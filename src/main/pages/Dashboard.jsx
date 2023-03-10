@@ -1,7 +1,12 @@
+//elements
+import BtnGeneral from "../components/elements/BtnGeneral";
+
 //components
 import MenuPanel from "../components/MenuPanel";
+
 //styles
 import "../../styles/components/Dashboard.css";
+
 
  export default function Dashboard() {
 	/*const [tickets, setTickets] = useState([]);
@@ -64,27 +69,33 @@ import "../../styles/components/Dashboard.css";
   )
   */
 
+	const btnNewOrder = {
+		color: "#fff",
+		backgroundColor: "#000",
+		borderRadius: "10px",
+		width: "54%",
+		fontSize: "18px", 
+		margin: "18px 0px"
+	}
+
     return (
-		<div>
-			<div className="row">
-				<div className="col">
-					<section className="dashboard-section-A my-4 d-flex justify-content-center">
-						<img className="main-logo-A" src="src/assets/main-logo.webp" alt="" />
-					</section>
-				</div>
-			</div>
-			<div className="row">
-				<div className="col">
-					<section className="dashboard-section-A my-4 d-flex justify-content-center">
-						<img className="main-logo-A" src="src/assets/main-logo.webp" alt="" />
-					</section>
-				</div>
-			</div>
-			<div className="row">
-				<div className="col">
-					<section className="dashboard-section-A my-4 d-flex justify-content-center">
-						<img className="main-logo-A" src="src/assets/main-logo.webp" alt="" />
-					</section>
+		<div className="dashboard-main-component pt-5">
+			<div className="dashboard-main-container container">
+				<div className="row mx-0 px-0">
+					<div className="col">
+
+						<section className="dashboard-section-A my-4 d-flex flex-column align-items-center">
+							<img className="main-logo-A" src="src/assets/main-logo.webp" alt="" />
+
+							<div className="dashboard-info d-flex flex-column align-items-center">
+								<span className="fs-5 text-white">Colombia 8870, Col Cacho, BC, MX</span>
+								<span className="fs-5 text-white">https://www.samageeks.com</span>
+							</div>
+
+							<BtnGeneral style={btnNewOrder} text="Nueva orden" event={null} link="/" />
+						</section>
+
+					</div>
 				</div>
 			</div>
 		</div>
