@@ -79,8 +79,8 @@ import "../../styles/components/Dashboard.css";
 	}
 
     return (
-		<div className="dashboard-main-component pt-5">
-			<div className="dashboard-main-container container">
+		<div className="main-component pt-5">
+			<div className="main-container container">
 				<div className="row mx-0 px-0">
 					<div className="col">
 

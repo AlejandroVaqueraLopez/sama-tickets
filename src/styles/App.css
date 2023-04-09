@@ -1,6 +1,16 @@
+/*global usage*/
 .app-container{
     background: rgb(30,34,43);
     box-sizing: border-box;
     padding: 0px !important;
     width: 100vw !important;
+}
+
+.main-component {
+    background-color: rgb(30,34,43);
+    min-height: 100vh;
+    height:auto;
+    width: 100% !important;
+}
+.main-container {
 }

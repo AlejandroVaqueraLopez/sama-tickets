@@ -1,0 +1,28 @@
+.customer-section-A {
+    height: auto;
+    border-radius: 10px;
+    background: rgb(21,24,30);
+}
+
+.customer-preview-list {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+}
+.customer-preview-list-item {
+    height: auto;
+    border-radius: 10px;
+    background: rgb(21,24,30);
+}
+
+.preview-customer-info {
+    min-height: 100%;
+    height: auto;
+}
+.customer-preview-list-item .row, .customer-preview-list-item .col{
+    height:auto;
+}
+
+.preview-button-selectable{
+}
